@@ -27,8 +27,8 @@ print(div,'\n')
 
 # 3 x 3 데이터프레임을 정렬해보세요.
 C = pd.DataFrame([[1,3,5],[15,10,5],[2,8,5]], index = ['a','b','c'], columns = ['d','e','f'])
-
 print(C)
+
 # c 행에 대해 오름차순 정렬
 row_C = C.sort_values(by='c', axis=1, ascending=True)
 

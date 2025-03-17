@@ -3,7 +3,7 @@ import numpy as np
 array1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
 
 # array1 첫 번째 column 벡터와 두 번째 column 벡터를 더하여 봅시다.
-array2 = array1[:,0] + array1[:,2]
+array2 = array1[:,0] + array1[:,1]
 print("1st column of array1 + 2nd column of array1:\n", array2)
 
 # array1 첫 번째 row 벡터와 두 번째 row 벡터를 빼봅시다.

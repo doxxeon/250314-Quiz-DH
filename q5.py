@@ -11,7 +11,7 @@ print(human,'\n')
 def main():
     ### 2. loc(), iloc() 함수를 이용하여 `age`를 추출
     print(human.loc['age'],'\n')
-    print(human.iloc[0,:],'\n')
+    print(human.iloc[0],'\n')
     
     ### 3. loc(), iloc() 함수를 이용하여 `weight`와 `height`만 추출
     print(human.loc['weight':'height'],'\n')

@@ -12,5 +12,5 @@ print(class_series,'\n')
 
 
 ### 3. 2차원 데이터를 선언하여 DataFrame형 데이터를 생성하세요.
-df = pd.DataFrame(age)
+df = pd.DataFrame()
 print(df,'\n')
